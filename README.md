@@ -17,35 +17,28 @@
 
 ## Project Background
 
-Elist is an e-commerce company operating between 2019 and 2022, selling consumer electronics across global markets including North America, EMEA, APAC, and LATAM. The company offers 8 products ranging from budget accessories (Samsung Charging Cable Pack at $23 avg) to premium laptops (Macbook Air at $1,866 avg), and operates a loyalty program alongside standard customer accounts.
+Elist is an e-commerce company founded in 2018 selling consumer electronics across global markets. The company offers popular electronics products and operates a loyalty program alongside standard customer accounts.
 
-Despite having access to transactional data, performance had historically been tracked in isolation without a unified view across sales trends, regional distribution, loyalty behavior, and product returns. This project delivers an end-to-end analysis of Elist's order data answering the following core business questions:
+Despite having access to transactional data from 2019 to 2022, performance had historically been tracked in isolation without a unified view across sales trends, regional distribution, loyalty behavior, and product returns. This project delivers an analysis of Elist's order data answering the following core business questions:
 
-- **How did COVID-19 impact sales performance and what happened after the initial surge?**
-- **What is driving the revenue decline in 2021 and 2022 — volume or pricing?**
-- **Is the loyalty program effectively retaining customers?**
-- **Which Apple products have the highest refund rates and is this improving over time?**
+- **What were the overall trends in sales during 2019-2022?**
+- **What were the growth rates?**
+- **How is the loyalty program performing?**
+- **What were the refund rates?**
 
-The Tableau Public dashboard can be accessed **[here](#)** *(replace with your Tableau Public link)*.
+The Tableau Public dashboard can be accessed **[here](https://public.tableau.com/app/profile/leonardo.otake.arakaki/viz/Elist_17744524847660/Dashboard1?publish=yes)** 
 
 ---
 
 ## Data Structure
 
-Elist's dataset consists of two tables with a total of **108,127 orders** spanning 2019–2022.
-
-| Table | Description |
-|---|---|
-| `orders_data_cleaned` | All purchase orders including product, price, purchase date, refund status, loyalty flag, and region |
-| `country_lookup_cleaned` | Country code to region mapping used to assign NA region to missing values |
-
-Key fields used in analysis: `USD_PRICE`, `ORDER_ID`, `USER_ID`, `PURCHASE_TS`, `REFUNDED`, `LOYALTY_PROGRAM`, `PRODUCT_NAME_CLEANED`, `REGION`, `COUNTRY_CODE`
+Elist's dataset consists of two tables with a total of **108,127 orders** spanning 2019–2022. The EOD can be accessed **[here](##)** 
 
 ---
 
 ## Executive Summary
 
-Between 2019 and 2022, Elist processed **108,127 orders** generating **$28.1M in total revenue** at an average order value of **$260**. The business experienced a dramatic COVID-driven surge in 2020 (+163% revenue YoY) followed by a sustained decline through 2021 and 2022. Critically, the nature of the decline differs by year — 2021's revenue drop was driven by AOV compression while order volume actually grew, whereas 2022 saw a full collapse in both volume and pricing. The loyalty program shows a significant retention gap, with 88% of returning customers not enrolled despite demonstrating repeat purchase behavior. Apple product refund rates improved significantly from 2019–2021 but show anomalous 0% figures in 2022 requiring validation.
+Between 2019 and 2022, Elist processed **108,127 orders** generating **$28.1M in total revenue** at an approximate average order value of **$260**. The business experienced COVID-driven surge in 2020, followed by a sustained decline through 2021 and 2022. Critically, the nature of the decline differs by year — 2021's revenue drop was driven by AOV compression while order volume actually grew, whereas 2022 saw a full collapse in both volume and pricing. The loyalty program shows a significant retention gap, with 82% of returning customers not enrolled in the program. Apple products refund rates are higher than non-apple products, but numbers are declining. 
 
 ---
 
@@ -57,8 +50,8 @@ Between 2019 and 2022, Elist processed **108,127 orders** generating **$28.1M in
 
 - **Pre-COVID 6-month average (Sep 2019 – Feb 2020): $415K per month.** Revenue was growing steadily but modestly in the lead-up to the pandemic.
 - **Post-COVID 6-month average (Mar 2020 – Aug 2020): $845K per month — a +104% increase.** The surge reflects accelerated digital adoption and increased consumer electronics demand as remote work and home entertainment became priorities.
-- **Revenue peaked in December 2020 at $1,246,007** — the highest single month in the dataset — driven by holiday demand compounding the COVID tailwind.
-- **The last 6-month average (Jul – Dec 2022): $318K** — below pre-COVID levels, suggesting the business was unable to sustain the gains made during the pandemic period.
+- **Revenue peaked in December 2020 at $1,246,007** — the highest single month in the dataset — driven by holiday demand compounding the COVID-19 effect.
+- **The last 6-month average (Jul – Dec 2022): $318K** — below pre-COVID levels, suggesting the business was unable to sustain the gains made during the pandemic period, revealing the need to improve client retention and attraction. 
 
 ---
 
@@ -111,7 +104,6 @@ The YoY decomposition reveals that 2021 and 2022 represent fundamentally differe
 
 - **Macbook Air has the highest refund rate across all products**, reaching 22% in 2019 and 19.8% in 2020 — nearly 3x the non-Apple average of 6–9% in those years.
 - **All Apple products showed significant refund rate improvement from 2020 to 2021:** Macbook Air dropped from 19.8% to 7.5%, AirPods from 11.2% to 4.8%, iPhone from 13.1% to 6.1%.
-- **All products show 0% refund rates in 2022.** This requires validation — it is likely a data completeness issue (refunds not yet recorded) rather than a genuine operational improvement. This should be flagged before using 2022 refund data in any business decision.
 - **The AOV of refunded orders is consistently lower than kept orders** across all Apple products — suggesting customers who return products may have purchased during promotional periods or made impulse purchases at discounted prices.
 - **Loyal customers refund at a slightly higher rate (7.5%) than non-loyal customers (6.3%)** — counter-intuitive and worth monitoring as it may indicate the loyalty program is attracting trial behavior rather than committed purchasing.
 
@@ -145,3 +137,4 @@ The YoY decomposition reveals that 2021 and 2022 represent fundamentally differe
 - **Returning customer definition:** A customer is classified as returning if they have more than one distinct order in the dataset across the full 2019–2022 period.
 - **AOV calculation:** AOV is calculated as `SUM(USD_PRICE) / COUNTD(ORDER_ID)` — it reflects average revenue per order, not per item, as the dataset does not include item-level quantity data.
 - **COVID-19 reference date:** March 2020 is used as the COVID-19 marker, aligned with the WHO's pandemic declaration date.
+- **All products show 0% refund rates in 2022.** This requires validation — it is likely a data completeness issue (refunds not yet recorded) rather than a genuine operational improvement. This should be flagged before using 2022 refund data in any business decision.
