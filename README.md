@@ -40,6 +40,9 @@ Elist's dataset consists of two tables with a total of **108,127 orders** spanni
 
 Between 2019 and 2022, Elist processed **108,127 orders** generating **$28.1M in total revenue** at an approximate average order value of **$260**. The business experienced COVID-driven surge in 2020, followed by a sustained decline through 2021 and 2022. Critically, the nature of the decline differs by year — 2021's revenue drop was driven by AOV compression while order volume actually grew, whereas 2022 saw a full collapse in both volume and pricing. The loyalty program shows a significant retention gap, with 82% of returning customers not enrolled in the program. Apple products refund rates are higher than non-apple products, but numbers are declining. 
 
+<img width="1450" height="943" alt="image" src="https://github.com/user-attachments/assets/7179e56d-5158-406f-bd0a-44758e8c7557" />
+<img width="1445" height="945" alt="image" src="https://github.com/user-attachments/assets/53e1ad2a-5013-4c0a-aa24-6fcc76032d1d" />
+
 ---
 
 ## Insights Deep-Dive
@@ -62,12 +65,16 @@ Between 2019 and 2022, Elist processed **108,127 orders** generating **$28.1M in
 
 The YoY decomposition reveals that 2021 and 2022 represent fundamentally different business problems:
 
+<div align="center">
+  
 | Year | Revenue | Orders | AOV |
 |---|---|---|---|
 | 2019 | $3.9M | 14,294 | $271 |
 | 2020 | $10.2M | 28,907 | $351 |
 | 2021 | $9.1M | 30,733 | $297 |
 | 2022 | $5.0M | 18,966 | $261 |
+</div>
+
 
 - **2020 → 2021:** Revenue fell -10.1% despite order count growing +6.3%. The driver was AOV compression of -15.4% — customers kept buying but spent less per order. This potentially is a pricing and product mix problem.
 - **2020 → 2022:** Revenue collapsed -45.7% driven by both a -38.3% drop in order count and a further -12.0% AOV decline. This represents a full demand contraction and requires a different response than the 2021 issue.
