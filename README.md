@@ -104,6 +104,7 @@ The YoY decomposition reveals that 2021 and 2022 represent fundamentally differe
 - **By 2021, loyal and non-loyal revenue lines converge and decline in parallel** — the program failed to provide a protective buffer against the broader revenue decline, suggesting it did not meaningfully change customer purchase behavior.
 - **Non-loyal customers account for 61% of total revenue ($17.1M)** despite the program existing across the full analysis period.
 - **Of 5,940 returning customers, 82% (4,876) are not enrolled in the loyalty program.** These customers are already demonstrating repeat purchase behavior without any incentive — they represent the highest-value conversion opportunity for the loyalty team. Also it shows that the **loyalty program is not effective** in helping customers make a second purchase, which is the main reason for such a program.
+- **By 2021, loyal customers surpassed non-loyal in both order count (19,552 vs 16,306) and AOV ($249 vs $261 — narrowing gap) while non-loyal volume collapsed.** This apparent loyalty program success can be misleading. The shift reflects a faster decrease of the non-loyal customer base rather than genuine loyalty growth. The 2022 data shows that loyal order count (11,107) actually exceeded non-loyal (10,458) while both segments declined.
 
 ---
 
