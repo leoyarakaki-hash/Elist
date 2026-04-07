@@ -97,7 +97,7 @@ The YoY decomposition reveals that 2021 and 2022 represent fundamentally differe
 ### Loyalty Program
 
 <div align="center">
-<img width="705" height="556" alt="image" src="https://github.com/user-attachments/assets/f49438dc-0532-4c53-9d2f-5e5102e7765b" />
+<img width="701" height="220" alt="image" src="https://github.com/user-attachments/assets/3e0fd2d1-d978-4f96-9811-93b282d7fd3b" />
 </div>
 
 - **The loyalty program generated near-zero revenue in 2019**, ramping significantly from mid-2020 as the program matured during the COVID period.
@@ -113,7 +113,7 @@ The YoY decomposition reveals that 2021 and 2022 represent fundamentally differe
 <img width="700" height="224" alt="image" src="https://github.com/user-attachments/assets/7e5e9b66-bef1-4e57-90ad-76472f0dbc66" />
 </div>
 <div align="center">
-<img width="700" height="304" alt="image" src="https://github.com/user-attachments/assets/f7013941-ba9b-4c8d-a901-baea91452fb0" />
+<img width="700" height="298" alt="image" src="https://github.com/user-attachments/assets/d2420f15-0a63-4a7d-ab77-0fdd3b84aa67" />
 </div>
 
 - **Macbook Air has the highest refund rate across all products**, reaching 22% in 2019 and 19.8% in 2020 — nearly 3x the non-Apple average of 6–9% in those years.
