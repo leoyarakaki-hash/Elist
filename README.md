@@ -97,7 +97,7 @@ The YoY decomposition reveals that 2021 and 2022 represent fundamentally differe
 ### Loyalty Program
 
 <div align="center">
-<img width="701" height="220" alt="image" src="https://github.com/user-attachments/assets/3e0fd2d1-d978-4f96-9811-93b282d7fd3b" />
+<img width="698" height="547" alt="image" src="https://github.com/user-attachments/assets/228cefa5-8d3c-4873-a7b6-c5afd441657c" />
 </div>
 
 - **The loyalty program generated near-zero revenue in 2019**, ramping significantly from mid-2020 as the program matured during the COVID period.
