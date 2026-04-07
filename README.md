@@ -116,8 +116,8 @@ The YoY decomposition reveals that 2021 and 2022 represent fundamentally differe
 <img width="700" height="298" alt="image" src="https://github.com/user-attachments/assets/d2420f15-0a63-4a7d-ab77-0fdd3b84aa67" />
 </div>
 
-- **Macbook Air has the highest refund rate across all products**, reaching 22% in 2019 and 19.8% in 2020 — nearly 3x the non-Apple average of 6–9% in those years.
-- **All Apple products showed significant refund rate improvement from 2020 to 2021:** Macbook Air dropped from 19.8% to 7.5%, AirPods from 11.2% to 4.8%, iPhone from 13.1% to 6.1%.
+- **Macbook Air has the highest refund rate across all products**, reaching 18% in 2019 and 17% in 2020 — nearly 3x the non-Apple average of 6–9% in those years.
+- **All Apple products showed significant refund rate improvement from 2020 to 2021** Macbook Air dropped from 17% to 6%, AirPods from 10% to 4%, iPhone from 11% to 4%.
 - **The AOV of refunded orders is consistently higher than kept orders** across all Apple products. Suggesting customers who return products may have purchased during promotional periods or made impulse purchases at discounted prices.
 
 ---
