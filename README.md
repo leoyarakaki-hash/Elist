@@ -133,11 +133,11 @@ The YoY decomposition reveals that 2021 and 2022 represent fundamentally differe
 - **Review loyalty program mechanics.** The data shows loyal members have lower repeat purchase rates than non-loyal returning customers. The program may need restructuring to reward frequency rather than just enrollment.
 - **Create a new client attraction program.** Since sales decreased in AOV and quantity there is a urgent need to attract new clients on top of rewarding and retaining existing ones.
 
-### Refund Reduction (Operations & Product Team)
+### Refund Reduction
 - **Investigate the Macbook Air refund root cause.** At 18–22% in 2019–2020, this is an outlier that warrants a qualitative review of return reasons. With Apple being a reputable and well known brand there might have been some fulfillment issues driving those high numbers.
 - **Investigate the higher AOV for refunded products.** This may indicate that customers are making impulse purchases over promotional periods or taking advantage of the return policy.
 
-### Regional Expansion (Growth & Strategy Team)
+### Regional Expansion
 - **APAC's premium AOV ($279) warrants further investment.** The region's customers spend more per order than any other region despite the second lowest volumw. Understanding what's driving this could inform product positioning globally and represent a great opportunity in acquiring new clients since it is the most populated region in the world. 
 - **LATAM remains underdeveloped** relative to population size. Before investing, a market assessment comparing Elist's product mix to local purchasing power and competitor presence would clarify whether the opportunity is addressable.
 
